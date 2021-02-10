@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+}
+p{
+    margin: 0 auto;
+    padding: 0;
+}
+h1{
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.header .logo{
+    margin-left: 10%;
+}
+
+.header li{
+    display: inline;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.header li:nth-child(1){
+    margin-left: 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.headerbtns{
+    display: flex;
+    font-weight: 500;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.headerbtns a{
+    color: black;
+}
+
+.signup{
+    border: 1px solid;
+    border-color: #F53855;
+    border-radius: 50px;
+    padding: 13px 45px;
+}
+
+.signup a{
+    color: #F53855;
+}
+
+.signin{
+    margin-right: 30px;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 6%;
+    margin-bottom: 104px;
+}
+
+.introtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.introtext h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0 auto;
+}
+
+.introtext p{
+    color: #4F5665;
+    line-height: 187%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.introtext .btngetstarted{
+    align-self: flex-start;
+    padding: 17.5px 77.5px;
+    font-weight: 700;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    background-color: #F53838;
+    margin-bottom: 20px;
+    box-shadow: 0 28px 60px -12px rgba(245,56,56,35);
+    cursor: pointer;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    padding: 50px;
+    box-shadow: 0 40px 90px rgba(13,16,37,.1);
+    margin-bottom: 133px;
+}
+
+.articles ul{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.articles li{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.articles .block{
+    padding: 40px 113px;
+}
+
+.articles .block:nth-child(2)
+{
+    border-right: 2px solid #EEEFF2;
+    border-left: 2px solid #EEEFF2;
+}
+
+.articles .text{
+    margin-left: 37px;
+}
+
+.articles .text p{
+    color: #4F5665;
+    font-size: 20px;
+    text-align: center;
+}
+
+.articles .text .number{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.textplan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.textplan p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4F5665;
+    width: 61%;
+}
+
+.textplan .title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.planlist{
+    display: flex;
+    margin: 0 10% 100px;
+    justify-content: space-between;
+}
+
+.planlist .plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.planlist .plan .img{
+    margin-top: 80px;
+}
+
+.planlist .plan .plantype{
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.planlist .plan .list{
+    margin: 0 75px;
+}
+
+.planlist .plan .list .listelement{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.planlist .plan .list .listelement p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 26px;
+    color:#4F5665;
+}
+
+.planlist .plan .list .listelement:last-child{
+    margin-bottom: 0;
+}
+
+.planlist .plan .selectbtn{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+.planlist .plan .selectbtn span{
+    color: #4F5665;
+}
+
+.planlist .plan .selectbtn p{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.planlist .plan .selectbtn .select{
+    font-weight: 700;
+    color:#F53838;
+    border: 2px solid #F53838;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 13px 63px;
+    cursor:pointer;
+}
+
+.planlist .plan:last-child .selectbtn .select{
+    font-weight: 700;
+    color: #fff;;
+    background-color: #F53838;
+    border-radius: 50px;
+    padding: 13px 63px;
+    background-color: #F53838;
+    box-shadow: 0 28px 60px -12px rgba(245,56,56,35);
+    cursor:pointer;
+}
+
+.planlist .plan:last-child{
+    border: 2px solid #F53838;
+}
+
+.footer{
+    display: flex;
+    margin: 0 10% 160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#4F5665;
+}
+
+.footer .logoannotation .term{
+    max-width: 75%;
+    margin: 20px 0 30px;
+}
+
+.footer .logoannotation .text{
+    color: #AFB5C0;
+    margin-top: 30px;
+}
+
+.footer .references{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .references .refmenu{
+    display: flex;
+    font-weight: 500;
+    color:black;
+    font-size: 18px;
+    flex-flow: column wrap;
+}
+
+.footer .references .refmenu p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.footer .references .refmenu li{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.footer .references .refmenu a{
+    text-decoration: none;
+    color:#4F5665;
+}
